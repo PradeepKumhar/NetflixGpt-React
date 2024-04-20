@@ -1,9 +1,11 @@
- import './App.css';
+ import Body from "./components/Body";
+ import Header from "./components/Header";
 
 function App() {
   return ( 
-    <div className="text-3xl text-green-400 bg-red-500">
-      <h1>Hello EveryOne😊</h1>
+    <div className="">
+     <Header />
+     <Body />
     </div>
   );
 }
